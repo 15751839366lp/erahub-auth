@@ -4,7 +4,7 @@ spring:
   datasource:
     username: root
     password: 123456
-    url: jdbc:mysql://127.0.0.1:3306/erahub_jlja_manage?useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/erahub_auth?useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
@@ -29,7 +29,7 @@ spring:
       max-file-size: 20MB #设置单个文件最大长度
       file-size-threshold: 20MB #当文件达到多少时进行磁盘写入
 mybatis:
-  mapper-locations: classpath:mapper/*/*Mapper.xml
+  mapper-locations: classpath:mapper/**/*Mapper.xml
   type-aliases-package: com.erahub.common.model
   configuration:
     map-underscore-to-camel-case: true
