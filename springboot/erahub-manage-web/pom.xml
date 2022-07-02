@@ -3,19 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>erahub_manage</artifactId>
+        <artifactId>erahub-manage</artifactId>
         <groupId>com.erahub</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <packaging>jar</packaging>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>erahub_manage_web</artifactId>
+    <artifactId>erahub-manage-web</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.erahub</groupId>
-            <artifactId>erahub_manage_system</artifactId>
+            <artifactId>erahub-manage-system</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

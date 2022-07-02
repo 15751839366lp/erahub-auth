@@ -5,10 +5,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>erahub_manage_common</module>
-        <module>erahub_manage_system</module>
-        <module>erahub_manage_web</module>
-        <module>erahub_manage_generator</module>
+        <module>erahub-manage-common</module>
+        <module>erahub-manage-system</module>
+        <module>erahub-manage-web</module>
+        <module>erahub-manage-generator</module>
     </modules>
 
     <parent>
@@ -19,11 +19,11 @@
     </parent>
 
     <groupId>com.erahub</groupId>
-    <artifactId>erahub_manage</artifactId>
+    <artifactId>erahub-manage</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>erahub_manage</name>
+    <name>erahub-manage</name>
 
-    <description>project for erahub_manage 2020</description>
+    <description>project for erahub-manage 2020</description>
 
     <properties>
         <java.version>1.8</java.version>

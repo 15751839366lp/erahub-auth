@@ -24,7 +24,7 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.8.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-web:1.3.2" level="project" />
-    <orderEntry type="module" module-name="erahub_manage_common" />
+    <orderEntry type="module" module-name="erahub-manage-common" />
     <orderEntry type="library" name="Maven: org.lionsoul:ip2region:1.7.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid-spring-boot-starter:1.1.10" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.10" level="project" />
